@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+.light {
+    background-color: #ECFDF5;
+}
+.light h1 {
+    color: #000;
+}
+
+.light p {
+    color: #273549;
+}
+.light span {
+    color: #10B981;
+}
+
+
+main {
+    font-family: "Karla", sans-serif;
+    height: 600px;
+    width: 600px;
+    margin: 100px auto;
+    padding: 0 55px;
+    background-color: #1F2937;
+    color: #fff;
+}
+
+#mode {
+    margin-top: 20px;
+}
+
+
+h1 {
+    padding: 90px 0 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+span {
+    display: block;
+    color: #55F991;
+}
+
+P {
+    margin: 15px 0 50px 0;
+    font-family: "Inter", sans-serif;
+    color: #D5D4D8;
+    size: 20px;
+}
+
+
+button {
+    background-color: #10B981;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    padding: 9px 15px;
+    margin-top: 50px;
+}
+
+label {
+    color:#10B981;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 30px;
+}
+
+.length {
+    width: 50px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #273549;
+    color: #b9b9bd;
+}
+
+.checkbox {
+    position: fixed;
+    top: 43%;
+    width: 30px;
+    height: 50px;
+    margin-right: 10px
+}
+
+
+hr {
+    margin: 35px 0;
+     color: #D5D4D8;
+}
+
+section {
+    display: flex;
+    gap: 30px;
+}
+
+output {
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    color: #55F991;
+    background-color: #273549;
+    padding-left: 35px;
+}
