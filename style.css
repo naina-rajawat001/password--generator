@@ -24,7 +24,7 @@ body {
 
 main {
     font-family: "Karla", sans-serif;
-    height: 600px;
+    height: 650px;
     width: 600px;
     margin: 100px auto;
     padding: 0 55px;
@@ -79,7 +79,6 @@ label {
 }
 
 
-
 .length {
     width: 50px;
     box-sizing: border-box;
@@ -92,14 +91,10 @@ label {
 }
 
 
-
-
 .checkbox {
     width: 30px;
     height: 50px;
 }
-
-
 
 
 hr {
@@ -109,14 +104,22 @@ hr {
 
 section {
     display: flex;
+    justify-content: center;
     gap: 30px;
 }
 
+
 output {
-    width: 220px;
-    height: 40px;
+    width: 250px;
+    height: 50px;
     line-height: 40px;
     color: #55F991;
     background-color: #273549;
     padding-left: 35px;
+}
+
+main,
+output, 
+input {
+    border-radius: 8px;
 }

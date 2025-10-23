@@ -42,8 +42,13 @@ generateBtn.onclick = () => {
     let randomNum2 = ""; 
 
     for (let i = 0 ; i < length; i++) {
-        randomNum1 += password[Math.floor(Math.random() * password.length)]
-        randomNum2 += password[Math.floor(Math.random() * password.length)]
+        if (
+
+            
+        ) {
+            randomNum1 += password[Math.floor(Math.random() * password.length)]
+            randomNum2 += password[Math.floor(Math.random() * password.length)]
+        }
     }
     outputEl1.innerText = randomNum1;
     outputEl2.innerText = randomNum2;
